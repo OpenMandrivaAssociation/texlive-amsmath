@@ -1,3 +1,9 @@
+# revision 23390
+# category Package
+# catalog-ctan /macros/latex/required/amslatex/math
+# catalog-date 2010-12-31 18:17:46 +0100
+# catalog-license lppl
+# catalog-version 2.13
 Name:		texlive-amsmath
 Version:	2.13
 Release:	1
@@ -87,6 +93,7 @@ highlighting mathematics, and ntheorem, for specifying theorem
 %doc %{_texmfdistdir}/source/latex/amsmath/subeqn.tex
 %doc %{_texmfdistdir}/source/latex/amsmath/technote.tex
 %doc %{_texmfdistdir}/source/latex/amsmath/testmath.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -97,3 +104,5 @@ highlighting mathematics, and ntheorem, for specifying theorem
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
