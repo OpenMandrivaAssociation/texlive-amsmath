@@ -1,4 +1,4 @@
-# revision 23390
+# revision 26389
 # category Package
 # catalog-ctan /macros/latex/required/amslatex/math
 # catalog-date 2010-12-31 18:17:46 +0100
@@ -6,7 +6,7 @@
 # catalog-version 2.13
 Name:		texlive-amsmath
 Version:	2.13
-Release:	2
+Release:	3
 Summary:	AMS mathematical facilities for LaTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/required/amslatex/math
