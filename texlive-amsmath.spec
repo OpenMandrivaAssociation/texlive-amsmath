@@ -1,12 +1,12 @@
-# revision 26389
+# revision 30645
 # category Package
 # catalog-ctan /macros/latex/required/amslatex/math
-# catalog-date 2010-12-31 18:17:46 +0100
+# catalog-date 2013-03-09 20:29:31 +0100
 # catalog-license lppl
-# catalog-version 2.13
+# catalog-version 2.14
 Name:		texlive-amsmath
-Version:	2.13
-Release:	3
+Version:	2.14
+Release:	1
 Summary:	AMS mathematical facilities for LaTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/required/amslatex/math
@@ -20,14 +20,14 @@ Requires(pre):	texlive-tlpkg
 Requires(post):	texlive-kpathsea
 
 %description
-This package is the principal package in the AMS-LaTeX
+The package provides the principal packages in the AMS-LaTeX
 distribution. It adapts for use in LaTeX most of the
-mathematical features found in AMS-TeX; it is a near-
-indispensable adjunct to serious mathematical typesetting in
-LaTeX. When amsmath is loaded, AMS-LaTeX packages amsbsy (for
-bold symbols), amsopn (for operator names) and amstext (for
-text embdedded in mathematics) are also loaded. Amsmath is part
-of the LaTeX required distribution; however, several
+mathematical features found in AMS-TeX; it is highly
+recommendsd as an adjunct to serious mathematical typesetting
+in LaTeX. When amsmath is loaded, AMS-LaTeX packages amsbsy
+(for bold symbols), amsopn (for operator names) and amstext
+(for text embdedded in mathematics) are also loaded. Amsmath is
+part of the LaTeX required distribution; however, several
 contributed packages add still further to its appeal; examples
 are empheq, which provides functions for decorating and
 highlighting mathematics, and ntheorem, for specifying theorem
@@ -51,7 +51,6 @@ highlighting mathematics, and ntheorem, for specifying theorem
 %{_texmfdistdir}/tex/latex/amsmath/amstex.sty
 %{_texmfdistdir}/tex/latex/amsmath/amstext.sty
 %{_texmfdistdir}/tex/latex/amsmath/amsxtra.sty
-%doc %{_texmfdistdir}/doc/latex/amsmath/00LICENSE.txt
 %doc %{_texmfdistdir}/doc/latex/amsmath/amsbsy.pdf
 %doc %{_texmfdistdir}/doc/latex/amsmath/amscd.pdf
 %doc %{_texmfdistdir}/doc/latex/amsmath/amsgen.pdf
@@ -60,24 +59,27 @@ highlighting mathematics, and ntheorem, for specifying theorem
 %doc %{_texmfdistdir}/doc/latex/amsmath/amsopn.pdf
 %doc %{_texmfdistdir}/doc/latex/amsmath/amstext.pdf
 %doc %{_texmfdistdir}/doc/latex/amsmath/amsxtra.pdf
-%doc %{_texmfdistdir}/doc/latex/amsmath/diffs-m.txt
 %doc %{_texmfdistdir}/doc/latex/amsmath/subeqn.pdf
 %doc %{_texmfdistdir}/doc/latex/amsmath/technote.pdf
 %doc %{_texmfdistdir}/doc/latex/amsmath/testmath.pdf
 #- source
-%doc %{_texmfdistdir}/source/latex/amsmath/00LICENSE.txt
-%doc %{_texmfdistdir}/source/latex/amsmath/00readme.txt
-%doc %{_texmfdistdir}/source/latex/amsmath/ams-m1.ins
+%doc %{_texmfdistdir}/source/latex/amsmath/README
 %doc %{_texmfdistdir}/source/latex/amsmath/amsbsy.dtx
+%doc %{_texmfdistdir}/source/latex/amsmath/amsbsy.ins
 %doc %{_texmfdistdir}/source/latex/amsmath/amscd.dtx
-%doc %{_texmfdistdir}/source/latex/amsmath/amsdtx.cls
+%doc %{_texmfdistdir}/source/latex/amsmath/amscd.ins
 %doc %{_texmfdistdir}/source/latex/amsmath/amsgen.dtx
-%doc %{_texmfdistdir}/source/latex/amsmath/amsldoc.cls
+%doc %{_texmfdistdir}/source/latex/amsmath/amsgen.ins
 %doc %{_texmfdistdir}/source/latex/amsmath/amsldoc.tex
 %doc %{_texmfdistdir}/source/latex/amsmath/amsmath.dtx
+%doc %{_texmfdistdir}/source/latex/amsmath/amsmath.ins
 %doc %{_texmfdistdir}/source/latex/amsmath/amsopn.dtx
+%doc %{_texmfdistdir}/source/latex/amsmath/amsopn.ins
 %doc %{_texmfdistdir}/source/latex/amsmath/amstext.dtx
+%doc %{_texmfdistdir}/source/latex/amsmath/amstext.ins
 %doc %{_texmfdistdir}/source/latex/amsmath/amsxtra.dtx
+%doc %{_texmfdistdir}/source/latex/amsmath/amsxtra.ins
+%doc %{_texmfdistdir}/source/latex/amsmath/diffs-m.txt
 %doc %{_texmfdistdir}/source/latex/amsmath/install.txt
 %doc %{_texmfdistdir}/source/latex/amsmath/manifest.txt
 %doc %{_texmfdistdir}/source/latex/amsmath/subeqn.tex
