@@ -6,7 +6,7 @@
 # catalog-version 2.14
 Name:		texlive-amsmath
 Version:	2.14
-Release:	4
+Release:	5
 Summary:	AMS mathematical facilities for LaTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/required/amslatex/math
