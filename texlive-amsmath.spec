@@ -1,12 +1,6 @@
-# revision 30645
-# category Package
-# catalog-ctan /macros/latex/required/amslatex/math
-# catalog-date 2013-03-09 20:29:31 +0100
-# catalog-license lppl
-# catalog-version 2.14
 Name:		texlive-amsmath
-Version:	2.14
-Release:	9
+Version:	2.17a
+Release:	1
 Summary:	AMS mathematical facilities for LaTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/required/amslatex/math
@@ -43,48 +37,10 @@ highlighting mathematics, and ntheorem, for specifying theorem
 
 #-----------------------------------------------------------------------
 %files
-%{_texmfdistdir}/tex/latex/amsmath/amsbsy.sty
-%{_texmfdistdir}/tex/latex/amsmath/amscd.sty
-%{_texmfdistdir}/tex/latex/amsmath/amsgen.sty
-%{_texmfdistdir}/tex/latex/amsmath/amsmath.sty
-%{_texmfdistdir}/tex/latex/amsmath/amsopn.sty
-%{_texmfdistdir}/tex/latex/amsmath/amstex.sty
-%{_texmfdistdir}/tex/latex/amsmath/amstext.sty
-%{_texmfdistdir}/tex/latex/amsmath/amsxtra.sty
-%doc %{_texmfdistdir}/doc/latex/amsmath/amsbsy.pdf
-%doc %{_texmfdistdir}/doc/latex/amsmath/amscd.pdf
-%doc %{_texmfdistdir}/doc/latex/amsmath/amsgen.pdf
-%doc %{_texmfdistdir}/doc/latex/amsmath/amsldoc.pdf
-%doc %{_texmfdistdir}/doc/latex/amsmath/amsmath.pdf
-%doc %{_texmfdistdir}/doc/latex/amsmath/amsopn.pdf
-%doc %{_texmfdistdir}/doc/latex/amsmath/amstext.pdf
-%doc %{_texmfdistdir}/doc/latex/amsmath/amsxtra.pdf
-%doc %{_texmfdistdir}/doc/latex/amsmath/subeqn.pdf
-%doc %{_texmfdistdir}/doc/latex/amsmath/technote.pdf
-%doc %{_texmfdistdir}/doc/latex/amsmath/testmath.pdf
+%{_texmfdistdir}/tex/latex/amsmath
+%doc %{_texmfdistdir}/doc/latex/amsmath
 #- source
-%doc %{_texmfdistdir}/source/latex/amsmath/README
-%doc %{_texmfdistdir}/source/latex/amsmath/amsbsy.dtx
-%doc %{_texmfdistdir}/source/latex/amsmath/amsbsy.ins
-%doc %{_texmfdistdir}/source/latex/amsmath/amscd.dtx
-%doc %{_texmfdistdir}/source/latex/amsmath/amscd.ins
-%doc %{_texmfdistdir}/source/latex/amsmath/amsgen.dtx
-%doc %{_texmfdistdir}/source/latex/amsmath/amsgen.ins
-%doc %{_texmfdistdir}/source/latex/amsmath/amsldoc.tex
-%doc %{_texmfdistdir}/source/latex/amsmath/amsmath.dtx
-%doc %{_texmfdistdir}/source/latex/amsmath/amsmath.ins
-%doc %{_texmfdistdir}/source/latex/amsmath/amsopn.dtx
-%doc %{_texmfdistdir}/source/latex/amsmath/amsopn.ins
-%doc %{_texmfdistdir}/source/latex/amsmath/amstext.dtx
-%doc %{_texmfdistdir}/source/latex/amsmath/amstext.ins
-%doc %{_texmfdistdir}/source/latex/amsmath/amsxtra.dtx
-%doc %{_texmfdistdir}/source/latex/amsmath/amsxtra.ins
-%doc %{_texmfdistdir}/source/latex/amsmath/diffs-m.txt
-%doc %{_texmfdistdir}/source/latex/amsmath/install.txt
-%doc %{_texmfdistdir}/source/latex/amsmath/manifest.txt
-%doc %{_texmfdistdir}/source/latex/amsmath/subeqn.tex
-%doc %{_texmfdistdir}/source/latex/amsmath/technote.tex
-%doc %{_texmfdistdir}/source/latex/amsmath/testmath.tex
+%doc %{_texmfdistdir}/source/latex/amsmath
 
 #-----------------------------------------------------------------------
 %prep
