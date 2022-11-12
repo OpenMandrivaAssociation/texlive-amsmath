@@ -5,9 +5,9 @@ Summary:	AMS mathematical facilities for LaTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/required/amslatex/math
 License:	LPPL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/amsmath.r63514.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/amsmath.doc.r63514.tar.xz
-Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/amsmath.source.r63514.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/amsmath.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/amsmath.doc.r%{version}.tar.xz
+Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/amsmath.source.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
