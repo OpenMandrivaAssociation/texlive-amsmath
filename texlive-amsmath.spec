@@ -1,13 +1,13 @@
 Name:		texlive-amsmath
-Version:	2.17a
-Release:	2
+Version:	63514
+Release:	1
 Summary:	AMS mathematical facilities for LaTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/required/amslatex/math
 License:	LPPL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/amsmath.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/amsmath.doc.tar.xz
-Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/amsmath.source.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/amsmath.r63514.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/amsmath.doc.r63514.tar.xz
+Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/amsmath.source.r63514.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -28,12 +28,12 @@ highlighting mathematics, and ntheorem, for specifying theorem
 (and similar) definitions.
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
@@ -44,7 +44,8 @@ highlighting mathematics, and ntheorem, for specifying theorem
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1 -a2
+%setup -c -a1 -a2
+%autopatch -p1
 
 %build
 
