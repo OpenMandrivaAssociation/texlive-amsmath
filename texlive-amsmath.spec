@@ -1,6 +1,6 @@
 Name:		texlive-amsmath
 Version:	63514
-Release:	1
+Release:	2
 Summary:	AMS mathematical facilities for LaTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/required/amslatex/math
