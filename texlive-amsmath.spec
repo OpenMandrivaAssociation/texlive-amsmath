@@ -1,5 +1,5 @@
 Name:		texlive-amsmath
-Version:	67314
+Version:	68720
 Release:	1
 Summary:	AMS mathematical facilities for LaTeX
 Group:		Publishing
