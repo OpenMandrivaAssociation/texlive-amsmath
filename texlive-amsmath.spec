@@ -3,7 +3,7 @@ Version:	71408
 Release:	1
 Summary:	AMS mathematical facilities for LaTeX
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/required/amslatex/math
+URL:		https://www.ctan.org/tex-archive/macros/latex/required/amslatex/math
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/amsmath.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/amsmath.doc.r%{version}.tar.xz
